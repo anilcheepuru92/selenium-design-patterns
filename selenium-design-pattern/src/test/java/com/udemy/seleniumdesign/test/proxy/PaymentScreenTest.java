@@ -31,6 +31,7 @@ public class PaymentScreenTest extends BaseTest{
 		this.paymentScreen.pay(paymentDetails);
 		String orderNumber = this.paymentScreen.getOrder().placeOrder();
 		System.out.println("Order Number: "+orderNumber);
+		System.out.println("Test ended");
 	}
 	
 	@DataProvider
