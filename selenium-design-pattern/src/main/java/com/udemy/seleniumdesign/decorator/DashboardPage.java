@@ -30,6 +30,7 @@ public class DashboardPage {
 	}
 	
 	public void goTo() {
+		System.out.println("Opening URL");
 		this.driver.get("https://vins-udemy.s3.amazonaws.com/ds/decorator.html");
 	}
 	
