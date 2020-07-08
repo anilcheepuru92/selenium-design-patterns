@@ -19,6 +19,7 @@ public class OrderComponentProxy implements OrderComponent{
 	
 	@Override
 	public String placeOrder() {
+		System.out.println("Overriding placeOrder");
 		if(Objects.nonNull(orderComponent))
 			return this.orderComponent.placeOrder();
 		else
